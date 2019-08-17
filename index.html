@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Hawk Profile</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link
+    href="https://fonts.googleapis.com/css?family=Creepster|Faster+One|Great+Vibes|Lobster|Monoton|Volkhov&display=swap"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/3f5de397b7.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <div style="width: 100%">
+    <nav id="title" class="navbar">
+      <a class="navbar-brand" href="new_index.html">
+        <h1 id="name">Hawk Shannon</h1>
+      </a>
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          Explore
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#aboutMe">Home</a>
+          <a class="dropdown-item" href="#project">Projects</a>
+          <a class="dropdown-item" href="#resume">Resume</a>
+          <a class="dropdown-item" href="#contact">Contact Me</a>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <a id="aboutMe"><br></a>
+  <div class="contentContainer">
+    <!--About me-->
+    <div class="row">
+      <div class="col-7" id="info_box">
+        <div id="text1" class="card">
+          <div class="card-header">
+            <h2>About Me</h2>
+            <div class="card">
+              <!--text content-->
+              <div class="card-body" id="about_me">
+                Hello Everyone!<br> My name is Hawk Shannon. I am originally from Colorado Springs, CO. I have made my
+                way
+                across the United States in various moves. After high school, I attended Chadron State College, located
+                in Chadron,
+                NE. After a year of attendence there I moved to Bozeman, MT and attended Montana State College. From
+                there I
+                landeded in Chicago, IL, where my carrer in the Restaurant/Hospitality industry.<br> I worked my way
+                from fast
+                casual style restaurants up to fine dining establishments. I managed to accumlutate 22 years and a
+                wealth of
+                knowledge. I eventually made my way to
+                Philadelphia, where I decided that a carrer change was necessary to sustain longevity in the workforce.
+                I
+                watched a very imformative VICE news program that touched on the importance of Coding in the future and
+                felt
+                that would be something that I could be sucessful. I am excited to be accepted into the UPENN coding
+                bootcamp
+                program.</div>
+            </div>
+            <br>
+            <a href="#contact" class="btn btn-primary">Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a id="aboutMe"><br></a>
+    <a id="contact"></a>
+
+    <div class="contentContainer">
+      <div class="container-fluid">
+        <!-- <h1 class="text-center mb-3">Bootstrap Multi-Card Carousel</h1> -->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner row w-100 mx-auto">
+            <div class="carousel-item col-md-4 active">
+              <div class="card" id="projectCard">
+                <img src="https://cdn.pixabay.com/photo/2017/08/08/20/08/fantasy-2612553_1280.jpg" alt="">
+                <div class="card-body">
+                  <h4 class="card-title">Project: #1</h4>
+                  <h5 class="card-title">Spaced Out</h5>
+                  <p class="card-text">An extraterrestrial word guessing game.</p>
+                  <br>
+                  <!-- <p class="card-text"><small class="text-muted">html, css</small></p> -->
+                  <a href="https://phillyhawk.github.io/Word-Guess-Game/" class="btn btn-primary">Launch</a>
+                  <a href="https://github.com/PhillyHawk/Word-Guess-Game" class="btn btn-primary">See the code</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item col-md-4">
+              <div class="card" id="projectCard">
+                <img class="card-img-top img-fluid"
+                  src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e3ab1759-7a76-46f1-8436-656cbb868a2a/d7wda4b-72754ff7-eb57-4f1f-9276-9ab5fdfad7ee.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2UzYWIxNzU5LTdhNzYtNDZmMS04NDM2LTY1NmNiYjg2OGEyYVwvZDd3ZGE0Yi03Mjc1NGZmNy1lYjU3LTRmMWYtOTI3Ni05YWI1ZmRmYWQ3ZWUuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Zk9dqsK25Eqf4-Qy3V529Yrq7ZaWchQ0XdMZcEEss_4"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">Project #2</h4>
+                  <h5 class="card-title">Gold Rush</h5>
+                  <p class="card-text">Test your luck and you math skills with this high stakes adding game.</p>
+                  <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                  <a href="https://phillyhawk.github.io/Gold-Rush/" class="btn btn-primary">Launch</a>
+                  <a href="https://github.com/PhillyHawk/Gold-Rush" class="btn btn-primary">See the code</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item col-md-4">
+              <div class="card" id="projectCard">
+                <img class="card-img-top img-fluid"
+                  src="https://ktfnews.com/wp-content/uploads/2017/08/https-blueprint-api-production.s3.amazonaws.com-uploads-card-image-280895-Lawn-In-Front-Of-The-White-House.jpg"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">Project: #3</h4>
+                  <h5 class="card-title">Who Takes Presedence?</h5>
+                  <p class="card-text">Beat the clock with your knoweldge of American Presients.</p>
+                  <br>
+                  <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                  <a href="https://phillyhawk.github.io/American-Trivia/" class="btn btn-primary">Launch</a>
+                  <a href="https://github.com/PhillyHawk/American-Trivia" class="btn btn-primary">See the code</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item col-md-4">
+              <div class="card" id="projectCard">
+                <img class="card-img-top img-fluid" src="https://media.giphy.com/media/5npdKTS5cnKZq/giphy.gif"
+                  style="height: 300px" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">Project #4</h4>
+                  <h5 class="card-title">Monster Mash</h5>
+                  <p class="card-text">Reanimate some of you favorite classic monsters with this gif generator.</p>
+                  <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                  <a href="https://phillyhawk.github.io/GIFtastic/." class="btn btn-primary">Launch</a>
+                  <a href="https://github.com/PhillyHawk/GIFtastic" class="btn btn-primary">See the code</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item col-md-4">
+              <div class="card" id="projectCard">
+                <img class="card-img-top img-fluid"
+                  src="https://palumbop.files.wordpress.com/2012/05/rollercoaster1.jpg" style="height:300px"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">Project #5</h4>
+                  <h5 class="card-title">Jersey Shore Express</h5>
+                  <p>Theres no waiting in line with this train schedule.</p>
+                  <br>
+                  <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                  <a href="https://phillyhawk.github.io/Train-Schedue" class="btn btn-primary">Launch</a>
+                  <a href="https://github.com/PhillyHawk/Train-Schedue" class="btn btn-primary">See the code</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item col-md-4">
+              <div class="card" id="projectCard">
+                <img class="card-img-top img-fluid" src="photos/muttropolitan.png" style="height:300px"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">Group Project #1</h4>
+                  <h4 class="card-title">The Muttropolitan</h4>
+                  <p class="card-text">A website fashioned for dogs and their owners located in the Philadelphia region.
+                  </p>
+                  <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                  <a href="https://dlentz92.github.io/Group-Project-1/" class="btn btn-primary">Visit</a>
+                  <a href="https://github.com/PhillyHawk/Group-Project-1" class="btn btn-primary">See the code</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item col-md-4">
+                <div class="card" id="projectCard">
+                  <img class="card-img-top img-fluid"
+                    src="https://ktfnews.com/wp-content/uploads/2017/08/https-blueprint-api-production.s3.amazonaws.com-uploads-card-image-280895-Lawn-In-Front-Of-The-White-House.jpg"
+                    alt="Card image cap">
+                  <div class="card-body">
+                    <h4 class="card-title">Project: #6</h4>
+                    <h5 class="card-title">LIRI Bot</h5>
+                    <p class="card-text">LIRI is a Language Interpretation and Recognition Interface.</p>
+                    <br>
+                    <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                    <a href="https://github.com/PhillyHawk/liri" class="btn btn-primary">Launch</a>
+                <a href="https://drive.google.com/file/d/1RYBGPf3NwtqN98HGZsHmNT7X_q-bcVlG/view"
+                  class="btn btn-primary">See a Demo</a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item col-md-4">
+                  <div class="card" id="projectCard">
+                    <img class="card-img-top img-fluid"
+                      src="https://ktfnews.com/wp-content/uploads/2017/08/https-blueprint-api-production.s3.amazonaws.com-uploads-card-image-280895-Lawn-In-Front-Of-The-White-House.jpg"
+                      alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title">Project: #7</h4>
+                      <h5 class="card-title">Bamazon</h5>
+                      <p class="card-text">Interactive shopping site.</p>
+                      <br>
+                      <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                      <a href="https://github.com/PhillyHawk/Bamazon" class="btn btn-primary">Launch</a>
+                <a href="https://drive.google.com/file/d/1YgI8Jzb2kKJWOoPXSHizarJsPr9c0nUf/view"
+                  class="btn btn-primary">See a Demo</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item col-md-4">
+                    <div class="card" id="projectCard">
+                      <img class="card-img-top img-fluid"
+                        src="https://media.giphy.com/media/3oFyD4xKncK6ptR7qg/giphy.gif" style="height:300px"
+                        alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="card-title">Project: #8</h4>
+                        <h5 class="card-title">Apples for Apples</h5>
+                        <p class="card-text"></p>Manhattan's most eligible Housewives</p>
+                        <br>
+                        <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                        <a href="https://radiant-springs-20816.herokuapp.com/" class="btn btn-primary">Launch</a>
+                <a href="https://github.com/PhillyHawk/Freind_Finder2" class="btn btn-primary">See the code</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item col-md-4">
+                      <div class="card" id="projectCard">
+                        <img class="card-img-top img-fluid"
+                          src="https://ktfnews.com/wp-content/uploads/2017/08/https-blueprint-api-production.s3.amazonaws.com-uploads-card-image-280895-Lawn-In-Front-Of-The-White-House.jpg"
+                          alt="Card image cap">
+                        <div class="card-body">
+                          <h4 class="card-title">Project: #9</h4>
+                          <h5 class="card-title">EAT_DA_BURGER</h5>
+                          <p class="card-text">Burger World Burger Menu.</p>
+                          <br>
+                          <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                          <a href="hhttps://still-savannah-58818.herokuapp.com/" class="btn btn-primary">Launch</a>
+                <a href="https://github.com/PhillyHawk/Burger" class="btn btn-primary">See the code</a>
+                        </div>
+                      </div>
+                    </div>
+          </div>
+          <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <br>
+    </div>
+    <div class="row">
+      <div id="text1" class="card" style="width:100%">
+        <div class="card-header">
+          <h2>Resume</h2>
+          <div class="card-body">
+            <div id="accordion">
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                      aria-controls="collapseOne">
+                      Work Experience
+                    </button>
+                  </h5>
+                </div>
+
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                  <div class="card-body">
+                    Service Manager, <strong>Suraya;</strong> Philadelphia, PA - April 2018 - May 2019<br>
+                    Helped open dinner service at <em>Philadelphia's Top Restaurant 2018</em> as a Server. Shortly
+                    after I was promoted to Manager to emplement Suraya's lunch program as Service Trainer, and Market
+                    Director. Suraya specialized in Lavant cuisine, beverages, and merchandise.
+                    <br>
+                    <br>
+                    Server, <strong>Wm. Mulherin's Sons;</strong> Philadelphia, PA - Nov 2017 - April 2018<br>
+                    Server at Fishtown's trendy fast pacedrustic Italian restaurant. Mulherin's empashasis is an
+                    upscale casual seasonal cusine by Chef Chris Painter with a sophistacated cocktail and Italian
+                    wine program.
+                    <br>
+                    <br>
+                    Banquet Captian, <strong>TAG;</strong> Denver, CO - Nov 2014 - Sept 2017<br>
+                    Oversaw and executed private dining events at Chef Troy Gaurd's Flagship restaurant in historic
+                    Larimer Square. TAG's emphasis was an ever-changing global cuisine with an eclectic cocktain and
+                    wine program.
+                    <br>
+                    <br>
+                    Lead Server/ Bartender, <strong>BellyQ;</strong> Chicago, IL - Oct 2013 - May 2014<br>
+                    Helped reinvent the bar program at Chef Bill Kim's Bib Gourmand awarded restaurant located on
+                    Chicago's infamous Restaurant Row. BellyQ emphasized in Korean barbecue and traditional Asian
+                    spirits.
+                    <br>
+                    <br>
+                    Server, <strong>Coppervine;</strong> Chicago, Il - Oct 2013 - May 2014<br>
+                    Opening Server at Chicago's premiere <em>Pairing Concept</em> located in the heart of Lincoln
+                    Park. Coppervine offered a complete pairing experience that included the cuisine of Chef Michael
+                    Taus, wine, beer, and cocktails.
+                    <br>
+                    <br>
+                    Banquet Captain/ Lead Server, <strong>Farmhouse;</strong> Chicago, IL - Sept 2011 - Oct 2013<br>
+                    Helped open America's first craft tavern and <em>"gin joint"</em> in Chicago. Went on to help open
+                    Farmhouse's second location as Banquet Captain in the neighboring suburb of Evanston, adjacent to
+                    the Northwestern campus.
+                    <br>
+                    <br>
+                    Bar Manager, <strong>Duchamp;</strong> Chicago, IL - April 2008 - July 2011<br>
+                    Crreated and maintained an inventive bar program at Chef Michael Taus' trendy bistro boasting
+                    having been voted <em>"Chicago's best burger".</em>
+                    <br>
+                    <br>
+                    Maitre d'/ Bartender, <strong>Zealous;</strong> Chicago, IL - Oct 2006 - May 2011<br>
+                    Oversaw guest relations both on t he floor and at the reservation desk at Charlie Trotter alumni
+                    Chef Michael Taus' high-end restaurant.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                      aria-expanded="false" aria-controls="collapseTwo">
+                      Education
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                  <div class="card-body">
+                    <p>
+                      <strong>Chadron State College</strong><br>
+                      Chadron, Nebraska<br>
+                      97-98<br>
+                      <br>
+                      <strong>Montana State University</strong><br>
+                      Bozeman, Montana<br>
+                      98-00<br>
+                      <br>
+                      <strong>University of Pennsylvania</strong><br>
+                      Philadelphia, Pennsylvania<br>
+                      LPS Coding Boot Camp<br>
+                      2019
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
+                      aria-expanded="false" aria-controls="collapseThree">
+                      Skills
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                    wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
+                    eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
+                    assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                    sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+                    labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br>
+            <a href="photos/Hawk 2018[205].pdf" class="btn btn-primary">Pdf Version</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+</body>
+<script type="text/javascript" src="app.js"></script>
+
+</html>
