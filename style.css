@@ -1,6 +1,7 @@
 #title{
   background-image: url("https://media.giphy.com/media/M1YMfbzkDZnuo/giphy.gif");
   background-size: 10px;
+  background-position: fixed;
   border: 5px solid black ;
   width: 100%;
   height: 150px;
@@ -120,11 +121,22 @@ h2{
   font-family: 'Montserrat Subrayada', sans-serif;
 }
 #scroll{
-  background-color:whitesmoke;
+  background-color:rgb(218, 216, 216);
   font-style: bolder;
   width: 600px;
   text-align: center;
   margin-left: 450px;
+  font-family: 'Montserrat Subrayada', sans-serif;
+  border: 5px solid black;
+}
+.accblock{
+  border:2px solid black;
+}
+footer{
+  background-image: url("https://media.giphy.com/media/M1YMfbzkDZnuo/giphy.gif");
+  background-size: 10px;
+  background-position: fixed;
+  border: 5px solid black ;
 }
 
 
