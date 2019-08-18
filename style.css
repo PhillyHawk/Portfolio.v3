@@ -4,6 +4,7 @@
   border: 5px solid black ;
   width: 100%;
   height: 150px;
+  font-family: 'Montserrat Subrayada', sans-serif;
 }
 #about_me{
   background: whitesmoke;
@@ -13,8 +14,10 @@
   color: black;
   font-size: 80px
 }
-#dropdownMenuButton{
+.btn{
   border: 2px solid black;
+  background-color: grey;
+  color: whitesmoke;
 }
 body{
   background-image: url("https://media.giphy.com/media/OEFrCqWzxB7oc/giphy.gif");
@@ -29,7 +32,7 @@ body{
 }
 .card-body{
   background-image: url("https://media.giphy.com/media/M1YMfbzkDZnuo/giphy.gif");
-  background-size: 2px;
+  background-size: 5px;
 }
 
 /* equal card height */
@@ -107,6 +110,21 @@ img{
   }
 }
 #projectCard{
-  border: 2px solid black;
+  border: 5px solid black;
 }
+#career{
+  background: whitesmoke;
+  padding: 10px 100px 10px 100px;
+}
+h2{
+  font-family: 'Montserrat Subrayada', sans-serif;
+}
+#scroll{
+  background-color:whitesmoke;
+  font-style: bolder;
+  width: 600px;
+  text-align: center;
+  margin-left: 450px;
+}
+
 
