@@ -26,37 +26,38 @@
 </head>
 
 <body>
-  <div style="width: 100%">
-    <nav id="title" class="navbar">
-      <a class="navbar-brand" href="new_index.html">
-        <h1 id="name">Hawk Shannon</h1>
-      </a>
-      <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-          aria-haspopup="true" aria-expanded="false">
-          Explore
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a class="dropdown-item" href="#aboutMe">Home</a>
-          <a class="dropdown-item" href="#project">Projects</a>
-          <a class="dropdown-item" href="#resume">Resume</a>
-          <a class="dropdown-item" href="#contact">Contact Me</a>
-        </div>
-      </div>
-    </nav>
-  </div>
-  <a id="aboutMe"><br></a>
   <div class="contentContainer">
+    <div style="width: 100%">
+      <nav id="title" class="navbar">
+        <a class="navbar-brand" href="new_index.html">
+          <h1 id="name">Hawk Shannon</h1>
+        </a>
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Explore
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#aboutMe">Home</a>
+            <a class="dropdown-item" href="#project">Projects</a>
+            <a class="dropdown-item" href="#resume">Resume</a>
+            <a class="dropdown-item" href="#contact">Contact Me</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <a id="aboutMe"><br></a>
+
     <!--About me-->
     <div class="row">
       <div class="col-8">
         <div class="card" id="text1">
           <div class="card-body">
-            <h5 class="card-title">About Me</h5>
+            <h2 class="card-title">About Me</h2>
             <div class="card">
               <!--text content-->
               <div class="card-body" id="about_me">
-                Hello Everyone!<br> My name is Hawk Shannon. I am originally from Colorado Springs, CO. I have made my
+               <strong>Hello Everyone!<br> My name is Hawk Shannon. I am originally from Colorado Springs, CO. I have made my
                 way
                 across the United States in various moves. After high school, I attended Chadron State College, located
                 in Chadron,
@@ -73,17 +74,18 @@
                 felt
                 that would be something that I could be sucessful. I am excited to be accepted into the UPENN coding
                 bootcamp
-                program.</div>
+                program.</strong></div>
             </div>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <br>
+            <a href="#" class="btn btn-basic">Contact Me</a>
           </div>
         </div>
       </div>
-      <div class="col-4">
+      <div style="margin-top: 20px" class="col-4">
         <div class="card" id="text1">
           <div class="card-body">
-           <img src="https://avatars2.githubusercontent.com/u/51675065?s=460&v=4" class="responsive" height="100%"
-           alt="Hawk">
+            <img src="https://avatars2.githubusercontent.com/u/51675065?s=460&v=4" class="responsive" height="100%"
+              alt="Hawk">
           </div>
         </div>
       </div>
@@ -185,74 +187,70 @@
               </div>
             </div>
             <div class="carousel-item col-md-4">
-                <div class="card" id="projectCard">
-                  <img class="card-img-top img-fluid"
-                    src="https://media.giphy.com/media/11A1ZpmhgeE7kI/giphy.gif" style="height: 300px"
-                    alt="Card image cap">
-                  <div class="card-body">
-                    <h4 class="card-title">Project: #6</h4>
-                    <h5 class="card-title">LIRI Bot</h5>
-                    <p class="card-text">LIRI is a Language Interpretation and Recognition Interface.</p>
-                    <br>
-                    <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
-                    <a href="https://github.com/PhillyHawk/liri" class="btn btn-primary">Launch</a>
-                <a href="https://drive.google.com/file/d/1RYBGPf3NwtqN98HGZsHmNT7X_q-bcVlG/view"
-                  class="btn btn-primary">See a Demo</a>
-                  </div>
+              <div class="card" id="projectCard">
+                <img class="card-img-top img-fluid" src="https://media.giphy.com/media/11A1ZpmhgeE7kI/giphy.gif"
+                  style="height: 300px" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">Project: #6</h4>
+                  <h5 class="card-title">LIRI Bot</h5>
+                  <p class="card-text">LIRI is a Language Interpretation and Recognition Interface.</p>
+                  <br>
+                  <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                  <a href="https://github.com/PhillyHawk/liri" class="btn btn-primary">Launch</a>
+                  <a href="https://drive.google.com/file/d/1RYBGPf3NwtqN98HGZsHmNT7X_q-bcVlG/view"
+                    class="btn btn-primary">See a Demo</a>
                 </div>
               </div>
-              <div class="carousel-item col-md-4">
-                  <div class="card" id="projectCard">
-                    <img class="card-img-top img-fluid"
-                      src="photos/bamazonImg.png" style="height: 300px"
-                      alt="Card image cap">
-                    <div class="card-body"> 
-                      <h4 class="card-title">Project: #7</h4>
-                      <h5 class="card-title">Bamazon</h5>
-                      <p class="card-text">Interactive shopping site.</p>
-                      <br>
-                      <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
-                      <a href="https://github.com/PhillyHawk/Bamazon" class="btn btn-primary">Launch</a>
-                <a href="https://drive.google.com/file/d/1YgI8Jzb2kKJWOoPXSHizarJsPr9c0nUf/view"
-                  class="btn btn-primary">See a Demo</a>
-                    </div>
-                  </div>
+            </div>
+            <div class="carousel-item col-md-4">
+              <div class="card" id="projectCard">
+                <img class="card-img-top img-fluid" src="photos/bamazonImg.png" style="height: 300px"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">Project: #7</h4>
+                  <h5 class="card-title">Bamazon</h5>
+                  <p class="card-text">Interactive shopping site.</p>
+                  <br>
+                  <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                  <a href="https://github.com/PhillyHawk/Bamazon" class="btn btn-primary">Launch</a>
+                  <a href="https://drive.google.com/file/d/1YgI8Jzb2kKJWOoPXSHizarJsPr9c0nUf/view"
+                    class="btn btn-primary">See a Demo</a>
                 </div>
-                <div class="carousel-item col-md-4">
-                    <div class="card" id="projectCard">
-                      <img class="card-img-top img-fluid"
-                        src="https://media.giphy.com/media/3oFyD4xKncK6ptR7qg/giphy.gif" style="height:300px"
-                        alt="Card image cap">
-                      <div class="card-body">
-                        <h4 class="card-title">Project: #8</h4>
-                        <h5 class="card-title">Apples for Apples</h5>
-                        <p class="card-text"></p>Manhattan's most eligible Housewives</p>
-                        <br>
-                        <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
-                        <a href="https://radiant-springs-20816.herokuapp.com/" class="btn btn-primary">Launch</a>
-                <a href="https://github.com/PhillyHawk/Freind_Finder2" class="btn btn-primary">See the code</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item col-md-4">
-                      <div class="card" id="projectCard">
-                        <img class="card-img-top img-fluid"
-                          src="https://media.giphy.com/media/tk2MjKGg0h04g/giphy.gif" style="height: 300px"
-                          alt="Card image cap">
-                        <div class="card-body">
-                          <h4 class="card-title">Project: #9</h4>
-                          <h5 class="card-title">EAT_DA_BURGER</h5>
-                          <p class="card-text">Burger World Burger Menu.</p>
-                          <br>
-                          <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
-                          <a href="hhttps://still-savannah-58818.herokuapp.com/" class="btn btn-primary">Launch</a>
-                <a href="https://github.com/PhillyHawk/Burger" class="btn btn-primary">See the code</a>
-                        </div>
-                      </div>
-                    </div>
+              </div>
+            </div>
+            <div class="carousel-item col-md-4">
+              <div class="card" id="projectCard">
+                <img class="card-img-top img-fluid" src="https://media.giphy.com/media/3oFyD4xKncK6ptR7qg/giphy.gif"
+                  style="height:300px" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">Project: #8</h4>
+                  <h5 class="card-title">Apples for Apples</h5>
+                  <p class="card-text"></p>Manhattan's most eligible Housewives</p>
+                  <br>
+                  <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                  <a href="https://radiant-springs-20816.herokuapp.com/" class="btn btn-primary">Launch</a>
+                  <a href="https://github.com/PhillyHawk/Freind_Finder2" class="btn btn-primary">See the code</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item col-md-4">
+              <div class="card" id="projectCard">
+                <img class="card-img-top img-fluid" src="https://media.giphy.com/media/tk2MjKGg0h04g/giphy.gif"
+                  style="height: 300px" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">Project: #9</h4>
+                  <h5 class="card-title">EAT_DA_BURGER</h5>
+                  <p class="card-text">Burger World Burger Menu.</p>
+                  <br>
+                  <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                  <a href="hhttps://still-savannah-58818.herokuapp.com/" class="btn btn-primary">Launch</a>
+                  <a href="https://github.com/PhillyHawk/Burger" class="btn btn-primary">See the code</a>
+                </div>
+              </div>
+            </div>
           </div>
           <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span  class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
           </a>
           <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
