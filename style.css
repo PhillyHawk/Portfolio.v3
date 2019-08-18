@@ -9,6 +9,8 @@
 }
 #about_me{
   background: whitesmoke;
+  font-size: 20px;
+  font-family: 'Palanquin Dark', sans-serif;
 
 }
 #name{
@@ -24,6 +26,7 @@ body{
   background-image: url("https://media.giphy.com/media/OEFrCqWzxB7oc/giphy.gif");
   background-size: 25px;
   border-image-width: 10px solid black;
+  margin-left: 8px;
 }
 #text1{
   background-image: url("https://media.giphy.com/media/M1YMfbzkDZnuo/giphy.gif");
@@ -34,6 +37,7 @@ body{
 .card-body{
   background-image: url("https://media.giphy.com/media/M1YMfbzkDZnuo/giphy.gif");
   background-size: 5px;
+  font-family: 
 }
 
 /* equal card height */
@@ -137,6 +141,37 @@ footer{
   background-size: 10px;
   background-position: fixed;
   border: 5px solid black ;
+  margin-top: 30px;
 }
+#contactinfo{
+  background-color:rgb(218, 216, 216);
+  border: 5px solid black;
+  width: 600px;
+  text-align: center;
+  margin-left: 450px;
+  }
+  h6{
+    font-family: 'Palanquin Dark', sans-serif;
+    font-size: 20px;
+}
+h3{
+  font-family: 'Montserrat Subrayada', sans-serif;
+}
+h4{
+  font-family: 'Montserrat Subrayada', sans-serif;
+}
+#about_me{
+  background: whitesmoke;
+  font-size: 20px;
+  
+  }
+  h5{
+    font-family: 'Palanquin Dark', sans-serif;
+  }
+  .card-text{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 18px;
+  }
+
 
 
