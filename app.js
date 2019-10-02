@@ -1,3 +1,7 @@
+$('#rotate').click(function(){
+  $(".card").toggleClass('flipped');
+});
+
 $(document).ready(function() {
   $("#myCarousel").on("slide.bs.carousel", function(e) {
     var $e = $(e.relatedTarget);
