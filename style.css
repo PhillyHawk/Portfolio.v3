@@ -1,5 +1,5 @@
 #title{
-  background-image: url("https://media.giphy.com/media/M1YMfbzkDZnuo/giphy.gif");
+  background-color: grey;
   background-size: 10px;
   background-position: fixed;
   border: 5px solid black ;
@@ -23,19 +23,19 @@
   color: whitesmoke;
 }
 body{
-  background-image: url("https://media.giphy.com/media/OEFrCqWzxB7oc/giphy.gif");
+  background-color: antiquewhite
   background-size: 25px;
   border-image-width: 10px solid black;
   margin-left: 8px;
 }
 #text1{
-  background-image: url("https://media.giphy.com/media/M1YMfbzkDZnuo/giphy.gif");
+  background-color: aquamarine
   background-size: 2px;
   border: 5px solid black;
   margin: 40px;
 }
 .card-body{
-  background-image: url("https://media.giphy.com/media/M1YMfbzkDZnuo/giphy.gif");
+  background-color: blueviolet
   background-size: 5px;
   font-family: 
 }
